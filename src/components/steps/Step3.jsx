@@ -1,4 +1,4 @@
-function Step3({ formData , handleSubmit }) {
+function Step3({ formData , handleSubmit , prevStep }) {
     return (
         <div className="step-container">
 
@@ -29,9 +29,10 @@ function Step3({ formData , handleSubmit }) {
                 {formData.email}
             </p>
 
-            <button onClick={handleSubmit}>
-                Submit 
-            </button>
+            <div className="button-group">
+                <button type="button" onClick={prevStep}> Back </button>
+                <button type="button" onClick={handleSubmit}> Submit </button>
+            </div> 
 
         </div>
     );
