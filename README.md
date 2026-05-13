@@ -6,7 +6,7 @@ A modern multi-step onboarding form built using React and Vite. This project sim
 
 ## Live Demo
 
-🔗 Live Project: 
+ Live Project: https://registration-wizard-olive.vercel.app/ 
 
 ---
 
